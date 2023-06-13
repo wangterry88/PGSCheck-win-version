@@ -55,4 +55,13 @@
 
 點擊根目錄中的: PGSCheck_ver3.0 捷徑即可執行。
 
+
+######################    6. 使用畫面    ##########################
+
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/b0b26591-7223-4c36-aa80-c7b6386bc532)
+
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/5d71929c-e6ff-4627-bf35-ff2b3234e653)
+
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/89933262-2431-411e-b95a-297d06919f02)
+
 ###############################################################
