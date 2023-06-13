@@ -26,18 +26,18 @@
 
 ## Step 7 : Result 
 
-### (A). All-Risk.Category.Boxplot
+### (A). All-Risk Category Boxplot (All-Risk.Category.Boxplot)
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/62feebe4-d678-4361-9471-5c0164a5cdd2)
 
-### (B). High-Risk.Category.Boxplot
+### (B). High-Risk Category plot (High-Risk.Category.Boxplot)
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/931f08a9-496b-4f08-b5c4-9198535b693f)
 
-### (C). High-Risk.Category.Keyword.plot
+### (C). High Risk Keyword plot (High-Risk.Category.Keyword.plot )
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/4a57e328-f24b-4cf7-be24-48bad73b32d7)
 
-### (D). Phencode.Real.Diagnosed
+### (D). Real Diagnosed in CMUH (Phencode.Real.Diagnosed)
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/c92641cc-f64a-4ff1-995f-a21a0dcaeded)
