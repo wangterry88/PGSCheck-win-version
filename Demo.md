@@ -30,14 +30,15 @@
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/62feebe4-d678-4361-9471-5c0164a5cdd2)
 
-### (B). High-Risk Category plot (High-Risk.Category.Boxplot)
+### (B). High-Risk Name plot (High-Risk.Name.Boxplot)
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/931f08a9-496b-4f08-b5c4-9198535b693f)
 
-### (C). High Risk Keyword plot (High-Risk.Category.Keyword.plot )
+### (C). High Risk Category plot (High-Risk.Category.Boxplot )
+
+![20230621_1442_36417005 High-Risk Category Boxplot](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/b7294cda-c7d0-4dab-a2e1-5a5c4b790625)
+
+### (D). High Risk Keyword plot (High-Risk.Category.Keyword.plot )
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/4a57e328-f24b-4cf7-be24-48bad73b32d7)
 
-### (D). Real Diagnosed in CMUH (Phencode.Real.Diagnosed)
-
-![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/c92641cc-f64a-4ff1-995f-a21a0dcaeded)
