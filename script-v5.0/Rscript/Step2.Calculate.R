@@ -306,6 +306,11 @@ if (check_row==0){
         Search_family_PRS_list<-union(Search_family_PRS_cutoff$PatientID_1, Search_family_PRS_cutoff$PatientID_2)
         Search_family_PRS_list<-setdiff(Search_family_PRS_list,Input_search)
 
+        Family_related_name_output<-Family_table %>% filter_at(vars(PatientID_1, PatientID_2), any_vars(. %in% Search_family_PRS_list))
+        Family_related_name_output<-Family_related_name_output[,c("PatientID_1","PatientID_2","PT_age_1","PT_age_2","PI_HAT")]
+        name_output_tmp<-paste0('./Result/',Output_name,'/Family/',Output_name,'.Family.Data.Name.txt',collapse='')
+        fwrite(Family_related_name_output,name_output_tmp,sep="\t",col.names=T)
+
         ######## For loop Create dirctory ########
 
         FAM_PGS_NUM <- Search_family_PRS_list

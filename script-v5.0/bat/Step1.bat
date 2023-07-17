@@ -16,8 +16,8 @@ goto :EOF
 
 <html>
   <head>
-    <title>PRS Check(ver4.0)</title>
-      PRS Check(ver4.0)<br>
+    <title>PRS Check(ver5.0)</title>
+      PRS Check(ver5.0)<br>
   </head>
   <body>
 
