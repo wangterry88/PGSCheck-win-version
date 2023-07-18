@@ -270,9 +270,9 @@ if (check_row==0){
         Family_plot_data_tmp=paste0('./Result/',Output_name,'/Family/',Output_name,'.Family.Data.txt',collapse = '')
         fwrite(Search_family_plot_cutoff,Family_plot_data_tmp,sep="\t",col.names=T,bom=T)
 
-        df.graph <- graph.data.frame(Search_family_plot_cutoff, directed = TRUE)
-
         #### Plot ####
+
+        df.graph <- graph.data.frame(Search_family_plot_cutoff, directed = TRUE)
 
         Family_plot_tmp=paste0('./Result/',Output_name,'/Family/',Output_name,'.Family.plot.png',collapse = '')
 
@@ -293,8 +293,40 @@ if (check_row==0){
         cat('\n')
         cat('\n')
 
-    
+        # Family Relationship Plot (with name)
+        
+        Search_family_plot_name<-Search_family[,c("PT_age_1","PT_age_2","PI_HAT")]
+        Search_family_plot_name_cutoff<-subset(Search_family_plot_name,Search_family_plot_name$PI_HAT>=cut_off)
 
+        Search_family_plot_name_cutoff<-Search_family_plot_name_cutoff[order(Search_family_plot_name_cutoff$PI_HAT,decreasing=T),]
+
+        Family_plot_name_tmp<-paste0('./Result/',Output_name,'/Family/',Output_name,'.FamilyName.Data.txt',collapse='')
+
+        fwrite(Search_family_plot_name_cutoff,Family_plot_name_tmp,sep="\t",col.names=T,bom=T)
+
+
+        ### Plot ###
+
+        df.graph.name <- graph.data.frame(Search_family_plot_name_cutoff, directed = TRUE)
+
+        Family_plot_name_tmp=paste0('./Result/',Output_name,'/Family/',Output_name,'.FamilyName.plot.png',collapse = '')
+
+        png(filename=Family_plot_name_tmp,width=1200,height=800)
+            par(family='wqy-microhei')
+            plot(df.graph.name, margin=0,
+                vertex.size=10,     
+                layout=layout_nicely(df.graph.name),   
+                vertex.label.cex=1.0,      
+                #vertex.label.font=5,
+                main='Family tree (Name)',
+                vertex.label.family='wqy-microhei',
+                edge.arrow.size=0.7)    
+        dev.off()
+        
+        cat('\n')
+        cat('########### Plotting Family Name plot sucessfully!... #########')
+        cat('\n')
+        cat('\n')
         cat('########### Step 7: Plotting Family PRS data... ########')
         cat('\n')
         cat('\n')
@@ -305,11 +337,6 @@ if (check_row==0){
         Search_family_PRS_cutoff<-subset(Search_family_PRS,Search_family_PRS$PI_HAT>=cut_off)
         Search_family_PRS_list<-union(Search_family_PRS_cutoff$PatientID_1, Search_family_PRS_cutoff$PatientID_2)
         Search_family_PRS_list<-setdiff(Search_family_PRS_list,Input_search)
-
-        Family_related_name_output<-Family_table %>% filter_at(vars(PatientID_1, PatientID_2), any_vars(. %in% Search_family_PRS_list))
-        Family_related_name_output<-Family_related_name_output[,c("PatientID_1","PatientID_2","PT_age_1","PT_age_2","PI_HAT")]
-        name_output_tmp<-paste0('./Result/',Output_name,'/Family/',Output_name,'.Family.Data.Name.txt',collapse='')
-        fwrite(Family_related_name_output,name_output_tmp,sep="\t",col.names=T)
 
         ######## For loop Create dirctory ########
 
