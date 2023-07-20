@@ -2,7 +2,7 @@
 
 ## Step 1 : Search by Patient Name
 
-![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/0e3c4a46-064c-4837-884e-e4cc7911a757)
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/6792b232-d616-43bd-bcd9-835975d183ef)
 
 ## Step 2 : Input Patient Name
 
