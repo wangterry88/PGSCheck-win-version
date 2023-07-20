@@ -12,7 +12,7 @@
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/a685a1f0-d6b5-4092-8e36-551ad2799f8d)
 
-## Step 4 : Input the Patient ID and king ship information
+## Step 4 : Input the Patient ID and IBD information
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/914d12e6-3905-40ea-bbbf-69bc85d84924)
 
