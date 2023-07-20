@@ -12,9 +12,9 @@
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/a685a1f0-d6b5-4092-8e36-551ad2799f8d)
 
-## Step 4 : Input the Patient ID
+## Step 4 : Input the Patient ID and king ship information
 
-![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/9e382f57-0825-488f-ba26-370f010cae22)
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/914d12e6-3905-40ea-bbbf-69bc85d84924)
 
 ## Step 5 : Calculate PRS result
 
@@ -24,7 +24,11 @@
 
 ![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/7d344530-3a22-4a09-abbf-798641677828)
 
-## Step 7 : Result 
+## Step 7 : Family Plot Result 
+
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/5cf6f6d4-beb5-46a9-95a3-60fcd2dc31cf)
+
+## Step 8 : Family and PGS Result 
 
 ### (A). All-Risk Category Boxplot (All-Risk.Category.Boxplot)
 
