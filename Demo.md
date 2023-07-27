@@ -6,7 +6,7 @@
 
 ## Step 2 : Input Patient Name
 
-![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/055e7823-4307-4b6f-80eb-cdad01e723fa)
+![image](https://github.com/wangterry88/PGSCheck-win-version/assets/49865575/e193442a-2635-4413-8127-55736ab53074)
 
 ## Step 3 : Select the Patient ID you want
 
