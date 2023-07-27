@@ -66,13 +66,13 @@ Release date: 2023/06/29
 
 ############################ 4. Input items ###########################
 
-- 1. The method of inquiry (according to name/according to medical record number).
+- 1.The method of inquiry (according to name/according to PatientID ).
 
-- 2. The name (full name) of the individual to be queried. (optional)
+- 2.The name (full name) of the individual to be queried. (optional)
 
-- 3. According to the query result of Step2, enter the individual medical record number. Ex:12345600
+- 3.According to the query result of Step2, enter the individual medical record number. [Ex:12345600]
 
-- 4. Select the Kinship Threshold for display (0.5/0.25/0.125).
+- 4.Select the Kinship Threshold for display (0.5/0.25/0.125).
 
 ###########################  5. How to execute      ############################
 
