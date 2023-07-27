@@ -5,82 +5,79 @@
 ##########################################################################
 
 
-版本更新 (ver5.0):
+Version update (ver5.0):
 
-發布日期: 2023/06/29
+Release date: 2023/06/29
 
+   1. Add the first step to select the search method.
 
-  1. 新增第一步驟可選擇搜尋方式。
+   2. Change the data storage and data calculation algorithm.
 
-  2. 改變資料存放與資料計算演算法。
+   3. Added HighRisk output report graph (PR>98).
 
-  3. 新增 HighRisk 輸出報告圖 (PR>98)。
+   4. Added PR>98 keyword map (Wordcolud) function.
 
-  4. 新增 PR>98 關鍵字圖(Wordcolud)功能。
+   5. Using CMUH's 400,000-person genetic chip data.
 
-  5. 使用 CMUH 40萬人基因晶片資料。
-
-
-############################ 1. 基本說明 #################################
+############################ 1. Basic instructions #################################
 
 
-- 本軟體是計算CMUH中各個個體的PGS風險(需有TPMI基因資料)。
+- This software is to calculate the PGS risk of each individual.
 
-- 本軟體使用 R (ver4.1.1)與 Batch shell運作環境。
+- This software uses R (ver4.1.1) and Batch shell operating environment.
 
-- 最低系統需求:
+- Minimum system requirements:
 
-    -操作系統: Windows/7/8/10/11
+     -OS: Windows/7/8/10/11
 
-    -處理器: Intel Core i5-4460 / AMD FX-8320
+     -Processor: Intel Core i5-4460 / AMD FX-8320
 
-    -RAM: 8 GB
+     - RAM: 8GB
 
-    -硬碟空間: 10 GB
+     - Hard disk space: 10 GB
 
-    -網路: 寬頻網路連線
+     -Internet: Broadband Internet connection
 
-    -解析度: 1024*768
-
-############################ 2. 主要功能 #################################
-
-
-- 第一步:先選擇搜尋方式 (依姓名/依病歷號)
-
-- 第二步:搜尋TPMI資料庫中的個體基本資料 (可選)。
-
-- 第三步:再依據使用者輸入將相對應之病歷號之個體之PGS計算並產生PGS風險預測圖。
-
-- 第四步:結果將放置於: ./Result/[輸出檔名]/ 資料夾中。
+     -Resolution: 1024*768
+  
+############################ 2. Main functions #################################
 
 
-############################ 3. 附加檔案 #################################
+- Step 1: First select the search method (by name/by PatientID)
+
+- Step 2: Search the basic information of the individual in the TPMI database (optional).
+
+- Step 3: Calculate the PGS of the individual with the corresponding PatientID according to the user input and generate a PGS risk prediction plot.
+
+- Step 4: The result will be placed in: ./Result/[output file name]/ folder.
 
 
-- 1.TPMI_list_ver5.txt: CMUH全院TPMI對照表。
-
-- 2.TPMI_Family_40W.txt: 全院40W基因親屬關係表。
-
-- 3.PGS_percentile_table_ver5.txt: CMUH全院PRS結果存放資料表。
-
-- 4.PGS_codebook_ver5.txt: PGS 對照 Reported_Trait/Category 對照表
+############################ 3. Attach files #################################
 
 
-############################ 4. 需自行輸入項目 ###########################
+- 1.TPMI_list_ver5.txt: TPMI comparison table.
 
-- 1. 欲查詢之方法(依姓名/依病歷號)。
+- 2.TPMI_Family_40W.txt: 40W gene kinship table.
 
-- 2. 欲查詢之個體姓名(全名) Ex: 王小明。(可選)
+- 3.PGS_percentile_table_ver5.txt: 40W sample PRS result table.
 
-- 3. 依據Step2之查詢結果，輸入個體病歷號。Ex:12345600
-
-- 4. 選擇顯示的親屬關係閾值(0.5/0.25/0.125)。
+- 4.PGS_codebook_ver5.txt: PGS comparison Reported_Trait/Category comparison table
 
 
-###########################  5. 如何執行      ############################
+############################ 4. Input items ###########################
+
+- 1. The method of inquiry (according to name/according to medical record number).
+
+- 2. The name (full name) of the individual to be queried. (optional)
+
+- 3. According to the query result of Step2, enter the individual medical record number. Ex:12345600
+
+- 4. Select the Kinship Threshold for display (0.5/0.25/0.125).
+
+###########################  5. How to execute      ############################
 
 
-- 點擊根目錄中的: PGSCheck_ver5.0 捷徑即可執行。
+- Click the shortcut: PGSCheck_ver5.0 in the root directory to execute.
 
 
 ##########################################################################
